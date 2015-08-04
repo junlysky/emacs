@@ -50,7 +50,7 @@ C-l        翻页，使光标处于整屏的最底部、正中间、最上部
 - C-<SPC>   开始选择段落  Mark set
 - C-w        剪切
 - C-y        粘贴
-- M-y
+- M-y        复制
 
 # 设置
 - C-+    放大字体
@@ -67,6 +67,12 @@ C-l        翻页，使光标处于整屏的最底部、正中间、最上部
 
 - M-x replace-string   字符替代
 - M-x recover-file <Return>    恢复文件
+
+# shell模式
+- M-x shell     打开shell模式
+- M-p           Fetch the next earlier old shell command.
+- C-c C-l       Display the buffer’s history of shell commands in another window (comint-dynamic-list-input-ring).
+- 
 
 # 帮助文档
 - C-h m  查看当前工作模式
